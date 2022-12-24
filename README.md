@@ -1,5 +1,5 @@
 # Projeto Exo API REST com KRUD
-##código de sistema para cadastro de pessoas em c# .net
+##API REST KRUD para Projetos e Usuários em c# .net
 
 1. Features 
 
@@ -14,9 +14,7 @@
 
 3. Organização do projeto
 
-    - Projeto feito
-
-    - Projeto organizado em cadastro de pessoas fisicas em primeiro lugar, depois vem as pessoas juridicas, e logo após o cadastro voce pode listar pessoas já cadastradas, tanto de pessoas fisicas quanto de pessoas juridicas
+    - Projeto feito e organizado com o método de login em primeiro lugar, logo após podemos utilizar o KRUD nos projetos e usuários
 
 4. Pré-requisitos de instalação
 
