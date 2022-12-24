@@ -13,16 +13,14 @@ namespace ExoApiProject.WebApi.Contexts
         {
         }
 
-        protected override void
-
-            OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured) 
             {
                 optionsBuilder.UseSqlServer("Data Source = DESKTOP-174R7TJ\\SQLEXPRESS; initial catalog = ExoApiProject;Integrated Security = true");
             }
         }
-        public DbSet<Project> Projects { get; set; }
+        public DbSet<Project> Project { get; set; }
         public DbSet<User> Users { get; set; }
     }
 }

@@ -98,7 +98,7 @@ namespace ExoApiProject.WebApi.Controllers
             }
         }
 
-        [HttpGet("projectname/{projectname")]
+        [HttpGet("projectname/{projectname}")]
         public IActionResult SearchByName(string projectname)
         {
             try
