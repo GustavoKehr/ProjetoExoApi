@@ -1,5 +1,5 @@
-# Projeto Exo API REST com KRUD
-##API REST KRUD para Projetos e Usuários em c# .net
+# Projeto Exo API REST com CRUD
+##API REST CRUD para Projetos e Usuários em c# .net
 
 1. Features 
 
@@ -14,7 +14,7 @@
 
 3. Organização do projeto
 
-    - Projeto feito e organizado com o método de login em primeiro lugar, logo após podemos utilizar o KRUD nos projetos e usuários
+    - Projeto feito e organizado com o método de login em primeiro lugar, logo após podemos utilizar o CRUD nos projetos e usuários
 
 4. Pré-requisitos de instalação
 
